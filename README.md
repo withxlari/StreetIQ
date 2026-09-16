@@ -17,9 +17,3 @@ Em desenvolvimento — fase V0.1 (Detecção de objetos com YOLOv8 + OpenCV).
 - FastAPI (planejado)
 - PostgreSQL (planejado)
 - LLM (planejado)
-
-## Como rodar
-
-\`\`\`
-pip install -r requirements.txt
-\`\`\`
