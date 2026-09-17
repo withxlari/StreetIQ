@@ -6,13 +6,24 @@ O objetivo não é apenas detectar veículos e pedestres em um vídeo, mas trans
 
 ## Status atual
 
-Em desenvolvimento — fase V0.1 (Detecção de objetos com YOLOv8 + OpenCV).
+Em desenvolvimento.
+
+- [x] V0.1 — Detecção de objetos (YOLOv8 + OpenCV)
+- [x] V0.2 — Tracking de objetos (ByteTrack)
+- [x] V0.3 — Movement Intelligence (direção e velocidade aproximada)
+- [ ] V0.4 — Event Engine
+- [ ] V0.5 — Safety Intelligence
+- [ ] V0.6 — Backend (FastAPI + PostgreSQL)
+- [ ] V0.7 — Dashboard
+- [ ] V1.0 — VisionBrain (interpretação via LLM)
+- [ ] V2.0 — Predictive Intelligence
 
 ## Stack
 
 - Python
 - OpenCV
 - YOLOv8 (Ultralytics)
+- ByteTrack
 - PyTorch
 - FastAPI (planejado)
 - PostgreSQL (planejado)
@@ -22,4 +33,5 @@ Em desenvolvimento — fase V0.1 (Detecção de objetos com YOLOv8 + OpenCV).
 
 \`\`\`
 pip install -r requirements.txt
+python vision/detection/detect.py
 \`\`\`
